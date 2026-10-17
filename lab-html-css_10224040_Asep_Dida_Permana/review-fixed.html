@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STT Cipasung Campus</title>
+  <style>
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 16px;
+      color: #263746;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      padding: 20px;
+      color: #fff;
+      background: #003366;
+    }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 0;
+      list-style: none;
+    }
+    nav a { color: #174a70; }
+    main { display: grid; gap: 24px; }
+    section {
+      padding: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    img { max-width: 100%; height: auto; }
+    label { display: block; }
+    input { box-sizing: border-box; width: 100%; padding: 8px; }
+    footer { padding: 20px; text-align: center; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>STT Cipasung</h1>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>STT Cipasung is a technology college in Tasikmalaya.</p>
+      <img src="https://placehold.co/600x300?text=STT+Cipasung" alt="Illustration of the STT Cipasung campus">
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="#contact" method="get">
+        <p><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required></p>
+        <p><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></p>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer><p>Copyright 2026</p></footer>
+</body>
+</html>
